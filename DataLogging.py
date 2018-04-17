@@ -11,11 +11,10 @@ Ln=0
 cu=0
 wb=Workbook()
 sh1=wb.add_sheet('sheet2',cell_overwrite_ok=True)
-ArduinoUnoSerial = serial.Serial('com9',115200)       #Create Serial port object called ArduinoUnoSerialData time.sleep(1)                                                             #wait for 2 secounds for the communication to get established
-#print ArduinoNanoSerial.readline()                             #read the serial data and print it as line 
+ArduinoUnoSerial = serial.Serial('com9',115200)                                                                    
+                           
 while(True):
-    #mydata=(ArduinoUnoSerial.readline().strip())
-    #print(mydata.decode('utf-8'))
+   
     H2=[7000]
     H=[]
 
