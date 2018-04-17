@@ -20,7 +20,7 @@ Figure illustrates the experimental setup, 1x1m area is used for the experiment 
 
 ### Steps
 ## 1. Data Collection
-The first step is to collect the data for model that will be used to train the data when applying for machine learning. Data is collected from arduino and store in csv format, data is collected in the grid of 5 cm, so total 18x18 row and column data with 15 samples for each grid is collected.
+The first step is to collect the data for model that will be used to train the data when applying for machine learning. Data is collected from arduino and store in csv format, data is collected in the grid of 5 cm, so total 18x18 row and column data with 15 samples for each grid is collected. Analog voltage is read by the arduino and voltage is converted to lux and then using serial communication data is send to python terminal.  
 
 ## 2. Training and testing the model
 After the collection of data using regression approach a model is trained, so different regressor is applied and the most accurate is selected for the testing. After training, testing of data is performed
