@@ -11,8 +11,17 @@ The Project describes the visible light communication used for localization usin
 7. Breadboard
 
 ### Experimental setup
-Figure illustrates the experimental setup, 1x1m area is used for the experiment and the four LEDs are used as transmitters which are blinking in (50,)frequencies
+Figure illustrates the experimental setup, 1x1m area is used for the experiment and the four LEDs are used as transmitters which are blinking at (50,70,125,145 HZ) frequencies 
 
 
 
 ![image](https://user-images.githubusercontent.com/32608510/38869918-e9f31806-4269-11e8-8ac7-1002a2a92419.png)
+
+
+### Steps
+## 1. Data Collection
+First collect the data for model that will be used to train the data when applying for machine learning. Data is collected from arduino and store in csv format, data is collected in the grid of 5 cm, so total 18x18 row and column data with 15 samples for each grid is collected.
+
+## 2. Training and testing the model
+after the collection of data using regression approach a model is trained, so different regressor is applied and the most accurate is selected for the testing. After training, testing of data is performed and the errors in results are analysed for accuracy.  
+
