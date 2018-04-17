@@ -10,4 +10,9 @@ The Project describes the visible light communication used for localization usin
 6. Resistor 1K ohm
 7. Breadboard
 
-Experiment setup
+### Experimental setup
+Figure illustrates the experimental setup, 1x1m area is used for the experiment and the four LEDs are used as transmitters which are blinking in (50,)frequencies
+
+
+
+![image](https://user-images.githubusercontent.com/32608510/38869918-e9f31806-4269-11e8-8ac7-1002a2a92419.png)
