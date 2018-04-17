@@ -1,9 +1,8 @@
 import serial                                          #Serial imported for Serial communication
 import time
 import numpy as np
-import cmath
-#import least square con.py
 from xlwt import Workbook
+
 start=time.time()
 i=1
 Mn=0
@@ -11,6 +10,7 @@ Ln=0
 cu=0
 wb=Workbook()
 sh1=wb.add_sheet('sheet2',cell_overwrite_ok=True)
+
 ArduinoUnoSerial = serial.Serial('com9',115200)                                                                    
                            
 while(True):
