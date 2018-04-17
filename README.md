@@ -23,5 +23,7 @@ Figure illustrates the experimental setup, 1x1m area is used for the experiment 
 First collect the data for model that will be used to train the data when applying for machine learning. Data is collected from arduino and store in csv format, data is collected in the grid of 5 cm, so total 18x18 row and column data with 15 samples for each grid is collected.
 
 ## 2. Training and testing the model
-after the collection of data using regression approach a model is trained, so different regressor is applied and the most accurate is selected for the testing. After training, testing of data is performed and the errors in results are analysed for accuracy.  
+after the collection of data using regression approach a model is trained, so different regressor is applied and the most accurate is selected for the testing. After training, testing of data is performed
 
+## 3. Error Analysis
+The errors are analysed in graphical form in order to test the accuracy of the system.  
