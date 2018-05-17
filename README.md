@@ -35,3 +35,6 @@ After the collection of data using regression approach a model is trained, so di
 
 ## 3. Error Analysis
 The errors are analysed in graphical form in order to test the accuracy of the system.  
+![image](https://user-images.githubusercontent.com/32608510/40159922-0c89df6e-59c9-11e8-98b0-c1c7020eca1a.png)
+
+![image](https://user-images.githubusercontent.com/32608510/40159933-1895ff04-59c9-11e8-95d4-9948374f1bc0.png)
